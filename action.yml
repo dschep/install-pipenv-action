@@ -4,10 +4,10 @@ author: 'Daniel Schep'
 inputs: 
   version:
     description: 'version'
+    default: null
 branding:
   icon: package
   color: green
-    default: null
 runs:
   using: 'node12'
   main: 'lib/main.js'
