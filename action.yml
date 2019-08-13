@@ -4,6 +4,9 @@ author: 'Daniel Schep'
 inputs: 
   version:
     description: 'version'
+branding:
+  icon: package
+  color: green
     default: null
 runs:
   using: 'node12'
