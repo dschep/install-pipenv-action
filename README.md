@@ -17,7 +17,7 @@ Basic:
 steps:
 - uses: actions/checkout@master
 - uses: actions/setup-python@v1
-- uses: actions/pipenv@v1
+- uses: dschep/install-pipenv-action@v1
 - run: pipenv run my_script.py
 ```
 
