@@ -23,7 +23,7 @@ steps:
 
 With a specific version:
 ```yaml
-- uses: actions/pipenv@v1
+- uses: dschep/install-pipenv-action@v1
   with:
     version: 2018.11.26
 ```
